@@ -110,3 +110,11 @@ add_action('admin_init', function()
         remove_menu_page('edit-comments.php');
     }
 });
+
+
+add_filter( 'excerpt_length', function() {
+    return 17;
+}, 999 );
+add_filter('excerpt_more', function() {
+    return '... <a href="'. get_permalink(get_the_ID()) .'">Read more</a>';
+});
