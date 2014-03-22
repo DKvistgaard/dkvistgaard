@@ -69,35 +69,35 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 }
 h1 {
 	font-size: 2.2em;
-    font-weight: 300;
+    font-weight: 600;
 }
 h2 {
 	font-size: 1.7em;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
 }
 h3 {
 	font-size: 1.4em;
-    font-weight: 300;
+    font-weight: 600;
 }
 h4 {
 	font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 600;
 }
 h5 {
 	font-size: 1.2em;
-    font-weight: 400;
+    font-weight: 600;
 }
 h6 {
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 600;
 }
 p {
 	font-size: 1em;
 	margin-bottom: 1em;
 }
 b, strong {
-	font-weight: bold;
+	font-weight: 500;
 }
 a {
 	color: rgb(53, 93, 196);
@@ -151,6 +151,7 @@ pre {
     font-family: 'Alegreya Sans', sans-serif;
     font-style: italic;
     font-size: 5em;
+    font-weight: 200;
     letter-spacing: -7px;
     word-spacing: 20px;
     color: rgba(255,255,255,0.8);
