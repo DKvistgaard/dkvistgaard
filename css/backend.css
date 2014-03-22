@@ -1,0 +1,19 @@
+/**
+ * Styles for theme backend
+ */
+#adminmenu .toplevel_page_theme-settings .wp-menu-image {
+	background-image: url('../../../../wp-admin/images/menu.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: -330px -33px;
+}
+#adminmenu .toplevel_page_theme-settings:hover .wp-menu-image, #adminmenu .toplevel_page_theme-settings.wp-has-current-submenu .wp-menu-image, #adminmenu .toplevel_page_theme-settings.current .wp-menu-image {
+	background-position: -330px -1px;
+}
+
+.form-table .theme-logo img {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
