@@ -52,15 +52,16 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,ma
 html, 
 body {
 	font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 22px;
     font-weight: 300;
-	line-height: 1;
+	line-height: 1.5;
     color: #666;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: -2px;
-    margin: 0.7em 0 0.3em;
+    line-height: 1.2;
+    margin: 1em 0 0.4em;
     color: #333;
 }
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
@@ -112,8 +113,8 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 ul {
-	margin: 0;
-	padding: 0;
+	margin: 0 0 1em;
+	padding: 0 0 0 2em;
 }
 ul li {
 	margin: 0;
@@ -121,13 +122,19 @@ ul li {
 	list-style: disc;
 }
 ol {
-	margin: 0;
-	padding: 0;
+	margin: 0 0 1em;
+	padding: 0 0 0 2em;
 }
 ol li {
 	margin: 0;
 	padding: 0;
 	list-style: decimal;
+}
+pre {
+    border-left: 5px solid orange;
+    padding: 1em;
+    margin: 0 0 1em 1em;
+    background: #fcfcfc;
 }
 
 
@@ -145,8 +152,10 @@ ol li {
     font-style: italic;
     font-size: 5em;
     letter-spacing: -7px;
+    word-spacing: 20px;
     color: rgba(255,255,255,0.8);
     text-shadow: 0 0 10px #777;
+    margin: 0;
 }
 
 .main-foot {
@@ -190,6 +199,10 @@ ol li {
     padding-top: 1em;
 }
 
+.content {
+    padding: 4em 5%;
+}
+
 @media screen and (min-width: 768px) {
     .main-head {
         padding-top: 6em;
@@ -217,5 +230,10 @@ ol li {
     }
     .single-post .post-head {
         padding-right: 150px;
+    }
+    
+    .content {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
