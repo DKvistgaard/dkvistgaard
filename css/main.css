@@ -150,6 +150,26 @@ ol li {
     text-shadow: 0 0 10px #777;
 }
 
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.single-post {
+    border-top: 1px solid #dbdbdb;
+    padding: 2em 5% 1.4em;
+    position: relative;
+}
+.single-post:first-child {
+    border-top: 0;
+}
+.single-post .post-meta {
+    font-size: 0.8em;
+    color: #999;
+    padding-top: 1em;
+}
+
 @media screen and (min-width: 768px) {
     .main-head {
         padding-top: 6em;
@@ -159,5 +179,23 @@ ol li {
     .main-head h1 {
         font-size: 7em;
         letter-spacing: -10px;
+    }
+    
+    .latest-posts {
+        padding: 2em 0;
+    }
+    
+    .single-post {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .single-post .post-meta {
+        position: absolute;
+        top: 3em;
+        right: 0;
+        padding-top: 0;
+    }
+    .single-post .post-head {
+        padding-right: 150px;
     }
 }
