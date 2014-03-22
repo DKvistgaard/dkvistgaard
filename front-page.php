@@ -22,9 +22,9 @@
                     <header class="post-head">
                         <h2><?php the_title(); ?></h2>
                     </header>
-                    <?php the_excerpt(); ?>
+                    <p><?= get_the_excerpt(); ?> <a href="<?php the_permalink(); ?>">Read more</a></p>
                     <footer class="post-meta">
-                        <time><?php the_date('jS \of\ F Y'); ?></time>
+                        <time><?php the_time('jS \of\ F Y'); ?></time>
                     </footer>
                 </article>
 
