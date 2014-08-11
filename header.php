@@ -21,6 +21,11 @@
 <body <?php body_class(); ?>>
 
     <header class="main-head">
+        <?php if (!is_home()) { ?>
+        <div class="logo">
+            <h2><a href="<?php bloginfo('url'); ?>">DKvistgaard</a></h2>
+        </div>
+        <?php } ?>
         <h1>
             <?php
             if (is_home()) {
