@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: -2px;
     line-height: 1.2;
-    margin: 1em 0 0.4em;
+    margin: 1.5em 0 0.4em;
     color: #333;
     font-weight: 700;
 }
@@ -131,7 +131,31 @@ pre {
     max-width: 100%;
     overflow: auto;
 }
-
+blockquote {
+    background: #e8eaf6;
+    border-left: 4px solid #5c6bc0;
+    padding: 1em 50px;
+    margin: 0 -50px 1em;
+    position: relative;
+}
+blockquote p {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+/*
+blockquote:before {
+    content: "\201F";
+    position: absolute;
+    font-size: 13em;
+    font-family: 'Roboto Slab', Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #e8eaf6;
+    line-height: 1;
+    top: -80px;
+    left: -120px;
+    z-index: 0;
+}
+*/
 
 /* ----------- Global styles ----------- */
 
